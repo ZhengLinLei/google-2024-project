@@ -32,6 +32,9 @@ class SignUpPage extends StatelessWidget {
             width: 300,
             child: Image.asset('assets/chipiChapa.jpg'),
           ),
+          const SizedBox(
+            height: 30,
+          ),
           ElevatedButton(
             onPressed: () {},
             child: const Text('Register'),
